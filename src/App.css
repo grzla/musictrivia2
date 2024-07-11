@@ -1,38 +1,73 @@
+.test {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px; */
+}
+
+.song-item {
+  /* display: flex;
+  align-items: flex-start; */
+  /* justify-content: space-between; */
+}
+
+.song-item > div {
+  /* Ensure text is left-aligned */
+  /* text-align: left;  */
+}
+
+.rank {
+  /* Fixed width for two characters */
+  /* width: 2ch; 
+  text-align: right; */
+}
+
+.artist, .title, .songinfo {
+  /* flex-grow: 1; */
+  /* Add some spacing */
+  /* margin: 0 10px;  */
+}
+
+.artist {
+  /* 1/5 of the container's width */
+  /* flex: 1;  */
+}
+
+.title {
+  /* 2/5 of the container's width */
+  flex: 2; 
+}
+
+.buttons {
+  /* flex: 2;
+  display: flex; */
+  /* Push to the right */
+  /* margin-left: auto;  */
+}
+
+.buttons button {
+  margin-left: 5px; /* Spacing between buttons */
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: stretch;
+  font-size: calc(10px+ 1vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
